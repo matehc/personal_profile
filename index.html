@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>Personal Profile Page</title>    
+</head>
+<body>
+    <header id="_introHead">
+        <div id="hero">
+            <h1>Hi, <br> My name is <span id="myName">Lucas</span></h1>
+        </div>
+    </header>
+
+        <!-- BIO DATA -->
+
+    <section id="_bioSect" class="sect">
+        
+        <div id="bio" class="innerSect">
+
+            <img id="myPhoto" src="me.png" alt="a photo of the author of the page" srcset="">
+
+            <div id="textContainer" class="shadow">
+                <h2 class="headStyle">Bio-Data</h2>
+            <div id="innerTContainer">
+                <p><span class="_label">Name: </span> Lucas Okafor </p>
+            <p><span class="_label">State of Origin: </span>Anambra</p>
+            <p><span class="_label">Date of Birth: </span>23<span>rd</span> August 1992</p>
+            <p><span class="_label">Occupation: </span>IT Support Specialist</p>
+            <p><span class="_label">Home Town: </span>Abatete</p>
+            <p><span class="_label">Internship-ID: </span>SNG-00216</p>
+            </div>
+            </div>           
+        </div>
+    </section>    
+
+    <!-- ========================================== -->
+
+    <section id="_summarySect" class="sect innerSect">
+        <div class="sectInnerDiv shadow">
+            <div class="datSum">
+                <h3 class="headStyle">Summary</h3>
+            </div>
+            <div id="summary">
+                
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis rerum unde sapiente, ullam laborum hic accusamus. Fugiat necessitatibus, tenetur quos ducimus culpa quis architecto hic quibusdam cumque voluptate sint nostrum.
+                </p>
+            </div>
+        </div>
+    </section>
+
+
+    
+<section id="_contactSect" class="sectContainer">
+    <div class="innerFormDiv innerSect">
+        <div >
+            <h3 class="headStyle">Contact</h3>
+        </div>
+        <form action="post" class="_contactForm">
+            <label for="name">Your Name: </label><br>
+            <input type="text" name="contacts_name" id="name"><br>
+    
+            <label for="subject">Subject: </label><br>
+            <input type="text" name="contact_subject" id="subject"><br>
+    
+            <label for="hello">Say hello!</label><br>
+            <textarea name="contact_hello" id="hello" cols="30" rows="10"></textarea><br>
+    
+            <button type="submit">Send</button>
+        </form>
+    </div>
+</section>
+
+<footer class="shadow">
+    <p>Lucas Okafor | 2020</p>
+</footer>
+
+    
+</body>
+</html>
